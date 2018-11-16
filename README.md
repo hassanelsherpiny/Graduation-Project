@@ -1,1 +1,4 @@
 # Graduation-Project
+My Graduation Project, Computer Aided Melanoma Detection, we propose a non-invasive diagnosis system of melanoma using computer vision and machine learning techniques. 
+The diagnosis system consists of stages which are: Segmentation, Feature Extraction, and Classification. The input for the segmentation stage is the lesion image, the output of the segmentation is a lesion mask specifying the image pixels that contain the lesion. 
+Feature extraction techniques use that mask (segmentation output) and extract the necessary features that are going to be used in the classification stage. Binary classification is used with each set of features extracted by each feature extraction technique, and results of correctly classified percentage, sensitivity and specificity are emitted.
